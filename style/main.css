@@ -120,7 +120,7 @@
     top: 35px;
     width: 100%;
 }
-.shopClass_item{padding:14px 10px;
+.shopClass_item{padding:13px 10px;
     border-bottom: #3487F2 solid 1px;
     border-top: #5AA1FE solid 1px;
 }
@@ -198,3 +198,17 @@
 .imgNum .active{
     background-color: #FF7700;
 }
+/*商品标题*/
+.shopTit{height: 44px;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    line-height: 44px;
+    margin-bottom: 15px;
+}
+.shopTit h3{font-size: 24px;float: left;font-weight:normal; padding-left: 15px}
+.icon{width: 44px;
+    height: 44px;
+    background: url("../images/icon/shopIcon.png") left top no-repeat;
+    float: left;
+}
+.more{float: right;font-family: "宋体";}
+.more:hover{text-decoration:underline;}
