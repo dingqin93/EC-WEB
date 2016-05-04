@@ -57,6 +57,7 @@
     font: 14px/35px "Microsoft YaHei","微软雅黑";
     color: #FFF;
     margin-right: 59px;
+    display:inline ;
 }
 .shopText{
 /*    font-size: 14px;
@@ -113,14 +114,7 @@
 }
 
 /*商品弹出列表*/
-.shopClass_show{
-    background-color: #4593FD;
-    position: absolute;
-    left: 0px;
-    top: 35px;
-    width: 100%;
-    padding-bottom: 1px;
-}
+.shopClass_show{background-color: #4593FD;position: absolute;left: 0px;top: 35px;width: 100%;padding-bottom: 1px;}
 .shopClass_item{
     padding:13px 10px;
     border-bottom: #3487F2 solid 1px;
@@ -215,13 +209,30 @@
 .more:hover{text-decoration:underline;}
 
 /*商品列表*/
+.shopList{margin-bottom:15px; }
 .shopList .leftArea{width: 190px;}
-.shopList .rightArea{width: 808px;border: #999 solid 1px;border-bottom:#FF7201 solid 3px;height: 396px;}
+.shopList .rightArea{width: 808px;border: #999 solid 1px;border-bottom:#FF7201 solid 3px;height: 396px;overflow: hidden;}
 /*商品列表--右侧*/
-.shopList_top{margin-right: -4px;}
+.shopList_top,
+.shopList_sm{margin-right: -4px;}
 .shop_item{width:202px; border-right: #999 solid 1px;border-bottom: #999 solid 1px;height: 279px;text-align: center;
     font-family: "Microsoft YaHei", "微软雅黑";float: left;}
 .shop_img{height: 218px;}
 .shop_img .img{width: 100%;display: block;}
 .shop_item h3{font-size:16px;}
 .shop_item p{font-size: 14px;color: #FF7300;line-height: 21px;}
+/*商品列表--小*/
+.shopItem_sm{width:202px; border-right: #999 solid 1px;height: 110px;padding-top:6px;float: left;}
+.shopItem_smImg{width: 95px;height: 95px;text-align: center;float: left;}
+.shopItem_smImg img{width: 95px;height: 95px;}
+.shopItem_text{padding-top: 28px;}
+.shopItem_text p{color: #FF7300;}
+.shopItem_text h3{font-family: "Microsoft YaHei", "微软雅黑";font-size: 16px;font-weight: normal;color: #181818;line-height: 30px;}
+/*底部*/
+.hr_25{height: 25px;}
+.footer{text-align: center;background-color: #D4D4D4;line-height: 24px;padding: 50px 0;}
+.footer i{font-style: normal;margin: 0 5px;}
+.footer a{color: #000;}
+.footer a:hover{color: #F60;}
+.web img{margin: 0 12px;}
+.web{padding-top: 30px;}
