@@ -241,6 +241,7 @@
 .products .leftArea{width: 185px;}
 .products .rightArea{width: 810px;}
 .products .banner_bar{float: none;}
+.products .item
 /*产品分类导航*/
 .leftNav{background-color: #F3F3F3;border: #D7D7D7 solid 1px;}
 .nav_title{height: 34px;line-height: 34px;font-size:14px;border-bottom:  #D7D7D7 solid 1px;text-align: center; }
@@ -254,4 +255,10 @@
 /*商品*/
 .item{width: 25%;float: left;}
 .img_item{height: 170px;text-align: center;}
+.img_item img{height: 170px;}
 .item p{line-height: 20px;}
+.item a{color: #000;}
+.item a:hover{text-decoration: underline;}
+.money{color:#D4105A;font-weight: bold;padding-top:10px; }
+.stars{width: 13px;height:12px;overflow: hidden;background: url("../images/icon/collection.jpg") left top no-repeat;
+display: inline-block;margin-right: 1px;}
