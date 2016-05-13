@@ -230,9 +230,28 @@
 .shopItem_text h3{font-family: "Microsoft YaHei", "微软雅黑";font-size: 16px;font-weight: normal;color: #181818;line-height: 30px;}
 /*底部*/
 .hr_25{height: 25px;}
+.hr_7{height: 7px;overflow: hidden;}
 .footer{text-align: center;background-color: #D4D4D4;line-height: 24px;padding: 50px 0;}
 .footer i{font-style: normal;margin: 0 5px;}
 .footer a{color: #000;}
 .footer a:hover{color: #F60;}
 .web img{margin: 0 12px;}
 .web{padding-top: 30px;}
+/*产品分类*/
+.products .leftArea{width: 185px;}
+.products .rightArea{width: 810px;}
+.products .banner_bar{float: none;}
+/*产品分类导航*/
+.leftNav{background-color: #F3F3F3;border: #D7D7D7 solid 1px;}
+.nav_title{height: 34px;line-height: 34px;font-size:14px;border-bottom:  #D7D7D7 solid 1px;text-align: center; }
+.nav_cont{padding:0 18px 4px;/*上 左右 下*/border-bottom: #D7D7D7 dotted 1px;margin-bottom: -1px;}
+.nav_cont h3{font-size: 12px;height: 30px;line-height: 30px;}
+.navCont_list li{float: left;width: 50%; }
+/*标题*/
+.products_title{height: 34px;border-bottom: #CCCCCC solid 2px;}
+.products_title h3{width: 180px;border-bottom: #096DBA solid 2px;height: 34px;
+    line-height:34px;tab-index: 9px;}
+/*商品*/
+.item{width: 25%;float: left;}
+.img_item{height: 170px;text-align: center;}
+.item p{line-height: 20px;}
