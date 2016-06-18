@@ -267,10 +267,54 @@
 .stars{width: 13px;height:12px;overflow: hidden;background: url("../images/icon/collection.jpg") left top no-repeat;
 display: inline-block;margin-right: 1px;}
 /*筛选*/
-.screening{border-bottom: 1px #D9D9D9 solid;}
-.screening dt{line-height: 32px;width: 74px;text-align: right;float: left;margin-right: 42px;font-weight: bold;}
+.screening{border-bottom: 1px #D9D9D9 solid;font-family: Verdana;}
+.screening dt{line-height: 32px;width: 74px;text-align: right;float: left;margin-right: 42px;}
 .limit{width: 55px;float: left;line-height: 32px;}
 .screening .active{background-color: #1D7AD9;color: #FFF;}
 .screening a{padding: 2px;}
 .screening_list{line-height: 32px;width: 626px;float: left;}
 .screening_list li{width: 20%;float: left;}
+.screen_more{border: #CCC solid 1px;height: 23px;line-height: 23px;margin-top: 4px;float: left;padding-right: 11px;padding-left: 11px;
+margin-right: 10px;}
+.screen_more a{background:url(../images/icon/sj_grey.gif) right center no-repeat;padding-right: 14px;}
+.addInfo{height: 31px;background-color: #F5F5F5;border: #CCC solid 1px;}
+.address{float: left;}
+.address span{float: left;}
+.select{border: #999 solid 1px;height: 22px;line-height: 22px;float: left;background-color: #FFF;
+padding-left: 10px;position: relative;padding-right: 20px;}
+.select h3{font-size: 12px;font-weight: normal;}
+.select span{position: absolute;right: 0;top: 0;height: 100%;width: 20px;
+background: url(../images/icon/sj_blue.jpg) center no-repeat;}
+.show_select{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
