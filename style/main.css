@@ -325,13 +325,18 @@ background: url(../images/icon/sj_blue.jpg) center no-repeat;}
 .userPosition a{font-size: 12px;}
 .userPosition em{font-style: normal;}
 .userPosition a:hover{text-decoration: underline;}
-
-
-
-
-
-
-
+/*左边*/
+.description_info{background-color: #FFF;}
+.description{border: #CCC solid 1px; }
+.description .leftArea{width: 309px;}
+.description_imgs .big{text-align: center;height:340px; }
+.des_smimg{padding-left: 1px;width: 265px;margin:0 auto;}
+.des_smimg img{border: #CCC solid 1px;}
+.des_smimg li{float: left;margin-left: -1px;}
+.des_smimg .active{border-color: #317EE7;position: relative;}
+/*右边*/
+.description .rightArea{width: 688px;border-left:#CCC solid 1px; }
+.des_content_tit
 
 
 
