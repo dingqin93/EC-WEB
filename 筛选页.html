@@ -163,25 +163,31 @@
         <!-- 分类筛选结束 -->
         <div class="addInfo">
             <div class="address">
-                <span>送至</span>
+                <span class="add_text">送至</span>
                 <div class="select">
                     <h3>海淀区五环内</h3>
                     <span></span>
+                    <div class="show_select">
+                        <li>上帝</li>
+                        <li>上帝</li>
+                        <li>上帝</li>
+                    </div>
                 </div>
             </div>
-            <span class="check">
-                <input type="checkbox" id="check">
-                <label for="check">仅显示有货</label>
+            <div class="fr screen_text">
+                <span class="check">
+                    <input type="checkbox" id="check">
+                    <label for="check">仅显示有货</label>
+                </span>
                 <span class="shop_number">
                     共<em>123</em>件
                 </span>
-            </span>
+                
+            </div>
         </div>
         
-        <div class="products_title">
-            <h3>数码影像</h3>
-        </div>
-        <div class="products_list clearfix">
+        
+        <div class="products_list screening_list_more clearfix">
             <div class="item">
                 <div class="item_cont">
                     <div class="img_item">
@@ -189,7 +195,7 @@
                     </div>
                     <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
                     <p class="money">￥888</p>
-                    <p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><a href="#"&nbsp;>（78条）</a> </p>
+                    <p><a href="#" class="addCar">加入购物车</a> </p>
                 </div>
             </div>
             <div class="item">
@@ -199,7 +205,7 @@
                     </div>
                     <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
                     <p class="money">￥888</p>
-                    <p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><a href="#"&nbsp;>（78条）</a> </p>
+                    <p><a href="#" class="addCar">加入购物车</a>  </p>
                 </div>
             </div>
             <div class="item">
@@ -209,7 +215,7 @@
                     </div>
                     <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
                     <p class="money">￥888</p>
-                    <p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><a href="#"&nbsp;>（78条）</a> </p>
+                    <p><a href="#" class="addCar">加入购物车</a>  </p>
                 </div>
             </div>
             <div class="item">
@@ -219,11 +225,10 @@
                     </div>
                     <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
                     <p class="money">￥888</p>
-                    <p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><a href="#"&nbsp;>（78条）</a> </p>
+                    <p><a href="#" class="addCar">加入购物车</a>  </p>
                 </div>
             </div>
-        </div>
-        <div class="products_list clearfix">
+       
             <div class="item">
                 <div class="item_cont">
                     <div class="img_item">
@@ -231,17 +236,7 @@
                     </div>
                     <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
                     <p class="money">￥888</p>
-                    <p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><a href="#"&nbsp;>（78条）</a> </p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item_cont">
-                    <div class="img_item">
-                        <a href=""><img src="images/shopImg.jpg" alt=""/></a>
-                    </div>
-                    <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
-                    <p class="money">￥888</p>
-                    <p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><a href="#"&nbsp;>（78条）</a> </p>
+                    <p><a href="#" class="addCar">加入购物车</a>  </p>
                 </div>
             </div>
             <div class="item">
@@ -251,7 +246,7 @@
                     </div>
                     <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
                     <p class="money">￥888</p>
-                    <p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><a href="#"&nbsp;>（78条）</a> </p>
+                    <p><a href="#" class="addCar">加入购物车</a>  </p>
                 </div>
             </div>
             <div class="item">
@@ -261,102 +256,44 @@
                     </div>
                     <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
                     <p class="money">￥888</p>
-                    <p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><a href="#"&nbsp;>（78条）</a> </p>
+                    <p><a href="#" class="addCar">加入购物车</a>  </p>
                 </div>
+            </div>
+            <div class="item">
+                <div class="item_cont">
+                    <div class="img_item">
+                        <a href=""><img src="images/shopImg.jpg" alt=""/></a>
+                    </div>
+                    <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
+                    <p class="money">￥888</p>
+                    <p><a href="#" class="addCar">加入购物车</a>  </p>
+                </div>
+                <div class="hot"></div>
             </div>
         </div>
-        <div class="hr_15"></div>
-        <div class="products_title">
-            <h3>数码影像</h3>
-        </div>
-        <div class="products_list clearfix">
-            <div class="item">
-                <div class="item_cont">
-                    <div class="img_item">
-                        <a href=""><img src="images/shopImg.jpg" alt=""/></a>
-                    </div>
-                    <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
-                    <p class="money">￥888</p>
-                    <p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><a href="#"&nbsp;>（78条）</a> </p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item_cont">
-                    <div class="img_item">
-                        <a href=""><img src="images/shopImg.jpg" alt=""/></a>
-                    </div>
-                    <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
-                    <p class="money">￥888</p>
-                    <p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><a href="#"&nbsp;>（78条）</a> </p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item_cont">
-                    <div class="img_item">
-                        <a href=""><img src="images/shopImg.jpg" alt=""/></a>
-                    </div>
-                    <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
-                    <p class="money">￥888</p>
-                    <p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><a href="#"&nbsp;>（78条）</a> </p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item_cont">
-                    <div class="img_item">
-                        <a href=""><img src="images/shopImg.jpg" alt=""/></a>
-                    </div>
-                    <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
-                    <p class="money">￥888</p>
-                    <p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><a href="#"&nbsp;>（78条）</a> </p>
-                </div>
-            </div>
-        </div>
-        <div class="products_list clearfix">
-            <div class="item">
-                <div class="item_cont">
-                    <div class="img_item">
-                        <a href=""><img src="images/shopImg.jpg" alt=""/></a>
-                    </div>
-                    <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
-                    <p class="money">￥888</p>
-                    <p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><a href="#"&nbsp;>（78条）</a> </p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item_cont">
-                    <div class="img_item">
-                        <a href=""><img src="images/shopImg.jpg" alt=""/></a>
-                    </div>
-                    <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
-                    <p class="money">￥888</p>
-                    <p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><a href="#"&nbsp;>（78条）</a> </p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item_cont">
-                    <div class="img_item">
-                        <a href=""><img src="images/shopImg.jpg" alt=""/></a>
-                    </div>
-                    <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
-                    <p class="money">￥888</p>
-                    <p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><a href="#"&nbsp;>（78条）</a> </p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item_cont">
-                    <div class="img_item">
-                        <a href=""><img src="images/shopImg.jpg" alt=""/></a>
-                    </div>
-                    <p><a href="#">文字介绍文字介绍文字介绍文字介绍文字介绍</a> </p>
-                    <p class="money">￥888</p>
-                    <p>评论：<span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><span class="stars"></span><a href="#"&nbsp;>（78条）</a> </p>
-                </div>
-            </div>
+
+        <!-- 分页 -->
+        <div class="hr_25"></div>
+        <div class="page">
+            <a href="#">上一页</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <span class="hl">...</span>
+            <a href="#">200</a>
+            <a href="#">下一页</a>
+            <span class="morePage">共200页，到第</span>
+            <input type="text" class="pageNum">
+            <span class="ye">页</span>
+            <input type="button" class="page_btn" value="确定">
         </div>
     </div>
 </div>
 
-
+<div class="hr_25"></div>
 <!--底部-->
 <div class="footer">
     <p><a href="#">慕课简介</a><i>|</i><a href="#">慕课公告</a><i>|</i><a href="#">招贤纳士</a><i>|</i><a href="#">联系我们</a><i>|</i>客服热线</p>
