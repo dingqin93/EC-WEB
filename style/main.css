@@ -336,9 +336,15 @@ background: url(../images/icon/sj_blue.jpg) center no-repeat;}
 .des_smimg .active{border-color: #317EE7;position: relative;}
 /*右边*/
 .description .rightArea{width: 688px;border-left:#CCC solid 1px; }
-.des_content_tit
-
-
+.des_content_tit{font:bold 16px/22px "Microsoft YaHei","微软雅黑";
+    padding: 13px 25px;}
+h3{display: block;}
+.des_content .dl{margin-bottom: 8px;}
+.des_content .dt{width: 75px;float: left;position: relative;
+color: #666;text-indent: 17px;line-height: 25px;}
+.des_content .dd{padding-left: 75px;}
+.des_money{font-size:18px; color:#F30; font-family:Verdana;}
+.des_money em{font-style:normal; font-size:12px;}
 
 
 
