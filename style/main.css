@@ -231,6 +231,7 @@
 .shopItem_text h3{font-family: "Microsoft YaHei", "微软雅黑";font-size: 16px;font-weight: normal;color: #181818;line-height: 30px;}
 /*底部*/
 .hr_25{height: 25px;}
+.hr_45{height: 45px;}
 .hr_15{height: 15px;overflow: hidden;}
 .hr_7{height: 7px;overflow: hidden;}
 .footer{text-align: center;background-color: #D4D4D4;line-height: 24px;padding: 50px 0;}
@@ -392,13 +393,20 @@ display: inline-block;margin: 0 40px;}
 .recommend .tit{height:39px; border-bottom:solid 1px #ccc; line-height:39px; text-indent:15px; font-size:14px; background-color:#F3F3F3;}
 .recommend .item{float:none; height:auto;width: 188px;}
 .recommend .money{padding-top:0;}
-
-
-
-
-
-
-
+/*详细介绍*/
+.des_infoContent{border: #CCC solid 1px;background-color: #FFF;}
+.des_tit{height: 39px;border-bottom: #CCC solid 1px;background: url(../images/icon/des_title.jpg)
+    left top repeat-x;}
+.des_tit li{float: left;width: 50%;font:14px/39px "宋体";text-align: center;border-left: #CCC solid 1px;
+margin-left: -1px;}
+.des_tit .active{background-color: #0479CA;font-weight: bold;position: relative;}
+.des_tit span{background: url(../images/icon/des_title_icon.png) left center no-repeat;padding-left: 32px;line-height: 39px;display: inline-block;}
+.ad{padding: 30px 0;text-align: center;}
+.info_tit{height: 26px;border-bottom: #CCC solid 1px;font-family: "微软雅黑","Microsoft YaHei";margin-bottom: 18px;}
+.info_tit h3{float: left;font-size: 16px;color: #2357A5;border-bottom: #2357A5 solid 1px;height: 26px;padding-right: 8px;position: relative;}
+.info_tit h4{font-size: 12px;color: #656565;line-height: 26px;padding-left: 4px;}
+.info_text{padding: 0 20px;}
+.info_text p{line-height: 22px;font-size: 14px;color: #656565;}
 
 
 
