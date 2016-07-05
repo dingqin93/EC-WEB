@@ -456,14 +456,13 @@ height: 20px;border:solid 1px #CCC;padding: 0 20px 0 6px;background: url(../imag
 .step_text .active{color: #F3E402;font-weight: bold;}
 
 .shopping_item{border:solid 1px #CCC;}
+.padding_shop{padding: 25px 30px;}
 .shopping_tit{height: 31px;background: url(../images/shopping_bg.jpg) left top repeat-x;
 font-size: 16px;font:16px/31px "Microsoft YaHei","微软雅黑";color: #444444;text-indent: 12px;}
-.shopping_cont{padding: 25px 35px;}
-.shopping_list li{height: 24px;margin-bottom: 10px;font-size: 12px;}
-.show_select li{padding-left: 10px;}
+.shopping_list li{height: 24px;}
 .shopping_list_text{float: left;width: 76px;line-height: 24px;}
 .shopping_list_text em{color: #F30;font-style: normal;margin-right: 5px;}
-
+.input{height: 22px;border: #CCC solid 1px;padding: 0 6px;}
 
 
 
