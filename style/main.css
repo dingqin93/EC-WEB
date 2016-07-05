@@ -445,10 +445,24 @@ height: 20px;border:solid 1px #CCC;padding: 0 20px 0 6px;background: url(../imag
 .stars_text{font-weight: bold;padding-left: 10px;}
 .review_t{height: 24px;padding-top: 5px;}
 .review_cont p{line-height: 30px;}
+/*购物车*/
+.stepBox{width: 396px;padding-top: 26px;}
+.step{background: url(../images/step.jpg) left top no-repeat;height: 19px;}
+.step_text{color: #FFF;font-size: 12px;line-height: 30px;}
+.step_text li{float: left;}
+.s01,.s03{width: 30%;}
+.s02{width: 40%;text-align: center;}
+.s03{text-align: right;}
+.step_text .active{color: #F3E402;font-weight: bold;}
 
-
-
-
+.shopping_item{border:solid 1px #CCC;}
+.shopping_tit{height: 31px;background: url(../images/shopping_bg.jpg) left top repeat-x;
+font-size: 16px;font:16px/31px "Microsoft YaHei","微软雅黑";color: #444444;text-indent: 12px;}
+.shopping_cont{padding: 25px 35px;}
+.shopping_list li{height: 24px;margin-bottom: 10px;font-size: 12px;}
+.show_select li{padding-left: 10px;}
+.shopping_list_text{float: left;width: 76px;line-height: 24px;}
+.shopping_list_text em{color: #F30;font-style: normal;margin-right: 5px;}
 
 
 
